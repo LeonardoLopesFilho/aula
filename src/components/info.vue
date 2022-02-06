@@ -29,11 +29,13 @@ export default {
     components:{
         foto
     },
+    props:{
+        email: String,
+        trabalho:Boolean
+    },
     data(){
         return {
-            trabalho : true,
             motraremail: false,
-            email: "leonardopimentellopes@gmail.com",
             meu_link:'https://google.com',
             textobotao : "Mostrar Email",
             backend:["PHP","PYTHON","Laravel","SQL"],
